@@ -1,0 +1,11 @@
+.content-layer{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+
+.main-layer{
+    margin-left: 280px;
+    /* background: #91c6e9; */
+    padding-top: 70px;
+}

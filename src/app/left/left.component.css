@@ -1,0 +1,34 @@
+.left-layer{
+    min-width: 240px;
+    height: 100%;
+    background: #fafafa;
+    position: fixed;
+    margin-top: 64px;
+    margin-left: 10px;
+    box-shadow: 5px 0px 3px rgb(0,0,0,0.1);
+}
+
+.left-layer .left-ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.left-layer .left-ul .left-li{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    color: #333; 
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.left-layer .left-ul .left-li:hover{
+    cursor: pointer;
+    color: #1976d2;
+    background-color: #dbdbdb;
+}
+
+.left-layer .left-ul .selected{
+    color: #1976d2;
+}

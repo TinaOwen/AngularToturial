@@ -1,0 +1,7 @@
+<div class="left-layer">
+    <ul class="left-ul">
+        <li class="left-li" [class.selected]='selectedNav==leftNav.name' *ngFor='let leftNav of leftNavs' (click)='selectOneNav(leftNav)'>
+            {{leftNav.name}}
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,16 @@
+.content-layer{
+    width: 100%;
+    height: auto;
+}
+
+.content-layer .content-head p{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.content-layer .content-main p{
+    font-size: 14px;
+
+}
+
